@@ -14,12 +14,11 @@
   <packaging>pom</packaging>
 
   <modules>
+    <module>ala</module>
+    <module>examples</module>
+    <module>gbif</module>
     <module>tools</module>
     <module>sdks</module>
-    <module>pipelines</module>
-    <module>examples</module>
-    <module>cli</module>
-    <module>ala</module>
   </modules>
 
   <name>Pipelines :: Parent</name>

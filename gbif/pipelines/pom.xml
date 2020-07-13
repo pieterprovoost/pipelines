@@ -4,20 +4,22 @@
 
   <parent>
     <groupId>org.gbif.pipelines</groupId>
-    <artifactId>pipelines-parent</artifactId>
+    <artifactId>gbif</artifactId>
     <version>2.5.4-SNAPSHOT</version>
     <relativePath>../pom.xml</relativePath>
   </parent>
 
-  <artifactId>cli</artifactId>
+  <artifactId>pipelines</artifactId>
   <packaging>pom</packaging>
 
-  <name>Pipelines :: CLI</name>
+  <name>Pipelines :: Pipelines</name>
+  <description>Apache Beam pipelines</description>
 
   <modules>
-    <module>crawler</module>
-    <module>crawler-integration-tests</module>
+    <module>export-gbif-hbase</module>
+    <module>ingest-fragmenter</module>
+    <module>ingest-gbif</module>
+    <module>ingest-gbif-java</module>
   </modules>
-
 
 </project>
