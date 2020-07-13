@@ -18,6 +18,7 @@
 
   <modules>
     <module>cli</module>
+    <module>keygen</module>
     <module>pipelines</module>
   </modules>
 

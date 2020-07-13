@@ -22,7 +22,6 @@
     <module>beam-transforms</module>
     <module>common</module>
     <module>core</module>
-    <module>keygen</module>
     <module>models</module>
   </modules>
 
