@@ -1,4 +1,4 @@
-package org.gbif.pipelines.core.client.blast;
+package org.gbif.pipelines.core.ws.blast;
 
 import java.io.IOException;
 import java.util.Objects;

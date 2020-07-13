@@ -1,4 +1,4 @@
-package org.gbif.pipelines.core.client.blast.response;
+package org.gbif.pipelines.core.ws.blast.response;
 
 import java.io.Serializable;
 

@@ -1,4 +1,4 @@
-package org.gbif.pipelines.core.client.metadata.response;
+package org.gbif.pipelines.core.ws.metadata.response;
 
 import java.io.Serializable;
 
@@ -8,17 +8,16 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
-/** Can´t be an org.gbif.api.model.registry.Organization due to enum unmarshalling */
+/** GBIF programme (portfolio of projects).*/
 @Getter
 @Setter
 @NoArgsConstructor
 @AllArgsConstructor
 @JsonIgnoreProperties(ignoreUnknown = true)
-public class Organization implements Serializable {
+public class Programme implements Serializable {
 
-  private static final long serialVersionUID = -2749510036624325642L;
-
-  private String endorsingNodeKey;
-  private String country;
+  private String id;
   private String title;
+  private String acronym;
+
 }

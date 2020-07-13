@@ -1,4 +1,4 @@
-package org.gbif.pipelines.core.client.metadata.contentful;
+package org.gbif.pipelines.core.ws.metadata.contentful;
 
 import java.net.MalformedURLException;
 import java.net.URL;

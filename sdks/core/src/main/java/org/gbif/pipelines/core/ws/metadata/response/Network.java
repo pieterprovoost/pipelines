@@ -1,4 +1,4 @@
-package org.gbif.pipelines.core.client.metadata.response;
+package org.gbif.pipelines.core.ws.metadata.response;
 
 import java.io.Serializable;
 

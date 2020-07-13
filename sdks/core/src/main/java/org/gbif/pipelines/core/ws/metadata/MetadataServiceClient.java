@@ -1,4 +1,4 @@
-package org.gbif.pipelines.core.client.metadata;
+package org.gbif.pipelines.core.ws.metadata;
 
 import java.io.IOException;
 import java.util.List;
@@ -7,7 +7,6 @@ import java.util.Optional;
 
 import org.gbif.pipelines.parsers.config.factory.RetryFactory;
 import org.gbif.pipelines.parsers.config.model.ContentConfig;
-import org.gbif.pipelines.parsers.config.model.PipelinesConfig;
 import org.gbif.pipelines.parsers.config.model.WsConfig;
 import org.gbif.pipelines.parsers.ws.client.metadata.contentful.ContentService;
 import org.gbif.pipelines.parsers.ws.client.metadata.contentful.ContentServiceFactory;

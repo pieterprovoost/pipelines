@@ -1,4 +1,4 @@
-package org.gbif.pipelines.core.client.blast;
+package org.gbif.pipelines.core.ws.blast;
 
 import org.gbif.pipelines.parsers.ws.client.blast.request.Sequence;
 import org.gbif.pipelines.parsers.ws.client.blast.response.Blast;

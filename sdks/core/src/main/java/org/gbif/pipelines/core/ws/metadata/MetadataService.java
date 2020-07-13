@@ -1,4 +1,4 @@
-package org.gbif.pipelines.core.client.metadata;
+package org.gbif.pipelines.core.ws.metadata;
 
 import java.util.List;
 

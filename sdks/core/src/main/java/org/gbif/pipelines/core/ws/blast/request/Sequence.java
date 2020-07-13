@@ -1,6 +1,4 @@
-package org.gbif.pipelines.core.client.metadata.response;
-
-import java.io.Serializable;
+package org.gbif.pipelines.core.ws.blast.request;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import lombok.AllArgsConstructor;
@@ -8,16 +6,15 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
-/** GBIF programme (portfolio of projects).*/
 @Getter
 @Setter
 @NoArgsConstructor
 @AllArgsConstructor
 @JsonIgnoreProperties(ignoreUnknown = true)
-public class Programme implements Serializable {
+public class Sequence {
 
-  private String id;
-  private String title;
-  private String acronym;
+  private static final long serialVersionUID = 5901501396585045269L;
 
+  private String marker;
+  private String sequence;
 }
