@@ -11,7 +11,7 @@
   <artifactId>crawler</artifactId>
   <packaging>jar</packaging>
 
-  <name>Pipelines :: CLI :: Crawler</name>
+  <name>Pipelines :: GBIF :: CLI :: Crawler</name>
 
   <build>
     <extensions>

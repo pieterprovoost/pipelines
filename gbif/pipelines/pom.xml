@@ -12,13 +12,13 @@
   <artifactId>pipelines</artifactId>
   <packaging>pom</packaging>
 
-  <name>Pipelines :: Pipelines</name>
+  <name>Pipelines :: GBIF :: Pipelines</name>
   <description>Apache Beam pipelines</description>
 
   <modules>
     <module>export-gbif-hbase</module>
     <module>ingest-fragmenter</module>
-    <module>ingest-gbif</module>
+    <module>ingest-gbif-beam</module>
     <module>ingest-gbif-java</module>
   </modules>
 

@@ -12,7 +12,7 @@
   <artifactId>ingest-fragmenter</artifactId>
   <packaging>jar</packaging>
 
-  <name>Pipelines :: Pipelines :: Ingest-fragmenter</name>
+  <name>Pipelines :: GBIF :: Pipelines :: Ingest-fragmenter</name>
   <description>Uploads fragments (raw records) from archives into Hbase table.</description>
 
   <properties>

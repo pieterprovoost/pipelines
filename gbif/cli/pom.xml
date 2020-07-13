@@ -13,7 +13,7 @@
   <artifactId>cli</artifactId>
   <packaging>pom</packaging>
 
-  <name>Pipelines :: CLI</name>
+  <name>Pipelines :: GBIF :: CLI</name>
 
   <modules>
     <module>crawler</module>

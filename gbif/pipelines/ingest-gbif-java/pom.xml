@@ -12,7 +12,7 @@
   <artifactId>ingest-gbif-java</artifactId>
   <packaging>jar</packaging>
 
-  <name>Pipelines :: Pipelines :: Ingest-GBIF Java version</name>
+  <name>Pipelines :: GBIF :: Pipelines :: Ingest-GBIF Java version</name>
   <description>Java based pipelines for ingestion biodiversity data</description>
 
   <build>
@@ -98,7 +98,7 @@
     <!-- This project -->
     <dependency>
       <groupId>org.gbif.pipelines</groupId>
-      <artifactId>ingest-gbif</artifactId>
+      <artifactId>ingest-gbif-beam</artifactId>
       <exclusions>
         <exclusion>
           <groupId>ch.qos.logback</groupId>

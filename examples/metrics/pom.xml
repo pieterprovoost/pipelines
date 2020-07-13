@@ -78,7 +78,7 @@
     <!-- Dependency to custom Beam Options -->
     <dependency>
       <groupId>org.gbif.pipelines</groupId>
-      <artifactId>ingest-gbif</artifactId>
+      <artifactId>ingest-gbif-beam</artifactId>
       <exclusions>
         <!-- Excluded to avoid problem with Spark standalone mode and Log4j logger -->
         <exclusion>

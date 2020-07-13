@@ -9,10 +9,10 @@
     <relativePath>../pom.xml</relativePath>
   </parent>
 
-  <artifactId>ingest-gbif</artifactId>
+  <artifactId>ingest-gbif-beam</artifactId>
   <packaging>jar</packaging>
 
-  <name>Pipelines :: Pipelines :: Ingest-GBIF</name>
+  <name>Pipelines :: GBIF :: Pipelines :: Ingest-GBIF Beam version</name>
   <description>Base Apache Beam pipelines for ingestion biodiversity data</description>
 
   <build>

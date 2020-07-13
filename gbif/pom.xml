@@ -14,8 +14,11 @@
   <artifactId>gbif</artifactId>
   <packaging>pom</packaging>
 
+  <name>Pipelines :: GBIF</name>
+
   <modules>
     <module>cli</module>
+    <module>pipelines</module>
   </modules>
 
 

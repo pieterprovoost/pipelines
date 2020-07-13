@@ -387,7 +387,7 @@
       </dependency>
       <dependency>
         <groupId>org.gbif.pipelines</groupId>
-        <artifactId>ingest-gbif</artifactId>
+        <artifactId>ingest-gbif-beam</artifactId>
         <version>${project.version}</version>
       </dependency>
       <dependency>

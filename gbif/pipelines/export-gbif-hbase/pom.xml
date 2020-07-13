@@ -13,7 +13,7 @@
 
   <packaging>jar</packaging>
 
-  <name>Pipelines :: Pipelines :: Export Occurrence into Avro</name>
+  <name>Pipelines :: GBIF :: Pipelines :: Export Occurrence into Avro</name>
   <description>GBIF pipelines for exporting occurrence records from HBase into Avro</description>
 
   <properties>
