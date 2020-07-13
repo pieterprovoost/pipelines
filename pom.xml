@@ -377,7 +377,7 @@
       </dependency>
       <dependency>
         <groupId>org.gbif.pipelines</groupId>
-        <artifactId>ingest-transforms</artifactId>
+        <artifactId>beam-transforms</artifactId>
         <version>${project.version}</version>
       </dependency>
       <dependency>

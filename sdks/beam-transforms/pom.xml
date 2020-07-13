@@ -10,10 +10,10 @@
     <relativePath>../pom.xml</relativePath>
   </parent>
 
-  <artifactId>ingest-transforms</artifactId>
+  <artifactId>beam-transforms</artifactId>
   <packaging>jar</packaging>
 
-  <name>Pipelines :: Pipelines :: Ingest-transforms</name>
+  <name>Pipelines :: Sdks :: Ingest-transforms</name>
   <description>Base Apache Beam transformations for ingestion biodiversity data</description>
 
   <dependencies>

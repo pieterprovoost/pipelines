@@ -12,7 +12,7 @@
   <artifactId>beam-common</artifactId>
   <packaging>jar</packaging>
 
-  <name>Pipelines :: Pipelines :: Beam-common</name>
+  <name>Pipelines :: Sdks :: Beam-common</name>
   <description>Classes and API for use with Apache Beam</description>
 
   <dependencies>

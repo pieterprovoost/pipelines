@@ -12,7 +12,7 @@
   <artifactId>common</artifactId>
   <packaging>jar</packaging>
 
-  <name>Pipelines :: Pipelines :: Common</name>
+  <name>Pipelines :: Sdks :: Common</name>
   <description>Variables, tools and etc</description>
 
   <dependencies>

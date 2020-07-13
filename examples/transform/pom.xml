@@ -148,7 +148,7 @@
     </dependency>
     <dependency>
       <groupId>org.gbif.pipelines</groupId>
-      <artifactId>ingest-transforms</artifactId>
+      <artifactId>beam-transforms</artifactId>
     </dependency>
     <dependency>
       <groupId>org.gbif.pipelines</groupId>
