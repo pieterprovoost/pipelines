@@ -72,7 +72,7 @@
     </dependency>
     <dependency>
       <groupId>org.gbif.pipelines</groupId>
-      <artifactId>ingest-fragmenter</artifactId>
+      <artifactId>ingest-gbif-fragmenter</artifactId>
       <classifier>tests</classifier>
       <type>test-jar</type>
       <version>${project.version}</version>

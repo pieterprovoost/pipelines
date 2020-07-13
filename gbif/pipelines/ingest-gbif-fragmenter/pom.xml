@@ -9,10 +9,10 @@
     <relativePath>../pom.xml</relativePath>
   </parent>
 
-  <artifactId>ingest-fragmenter</artifactId>
+  <artifactId>ingest-gbif-fragmenter</artifactId>
   <packaging>jar</packaging>
 
-  <name>Pipelines :: GBIF :: Pipelines :: Ingest-fragmenter</name>
+  <name>Pipelines :: GBIF :: Pipelines :: Ingest-GBIF Fragmenter</name>
   <description>Uploads fragments (raw records) from archives into Hbase table.</description>
 
   <properties>

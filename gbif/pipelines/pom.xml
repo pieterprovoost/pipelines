@@ -17,7 +17,7 @@
 
   <modules>
     <module>export-gbif-hbase</module>
-    <module>ingest-fragmenter</module>
+    <module>ingest-gbif-fragmenter</module>
     <module>ingest-gbif-beam</module>
     <module>ingest-gbif-java</module>
   </modules>
