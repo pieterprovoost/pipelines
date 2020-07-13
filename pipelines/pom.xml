@@ -16,13 +16,10 @@
   <description>Apache Beam pipelines</description>
 
   <modules>
-    <module>beam-common</module>
-    <module>common</module>
     <module>export-gbif-hbase</module>
     <module>ingest-fragmenter</module>
     <module>ingest-gbif</module>
     <module>ingest-gbif-java</module>
-    <module>ingest-transforms</module>
   </modules>
 
 </project>
