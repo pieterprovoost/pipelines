@@ -4,7 +4,7 @@ import java.time.Instant;
 import java.util.Optional;
 import java.util.Set;
 
-import org.gbif.pipelines.core.Interpretation;
+import org.gbif.pipelines.core.interpreters.Interpretation;
 import org.gbif.pipelines.core.interpreters.metadata.MetadataInterpreter;
 import org.gbif.pipelines.io.avro.ExtendedRecord;
 import org.gbif.pipelines.io.avro.MetadataRecord;

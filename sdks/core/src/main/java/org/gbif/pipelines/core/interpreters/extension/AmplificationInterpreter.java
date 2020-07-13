@@ -4,9 +4,9 @@ import java.util.List;
 import java.util.Objects;
 import java.util.function.BiConsumer;
 
-import org.gbif.pipelines.core.ExtensionInterpretation;
-import org.gbif.pipelines.core.ExtensionInterpretation.Result;
-import org.gbif.pipelines.core.ExtensionInterpretation.TargetHandler;
+import org.gbif.pipelines.core.interpreters.ExtensionInterpretation;
+import org.gbif.pipelines.core.interpreters.ExtensionInterpretation.Result;
+import org.gbif.pipelines.core.interpreters.ExtensionInterpretation.TargetHandler;
 import org.gbif.pipelines.io.avro.Amplification;
 import org.gbif.pipelines.io.avro.AmplificationRecord;
 import org.gbif.pipelines.io.avro.BlastResult;

@@ -3,7 +3,7 @@ package org.gbif.pipelines.transforms.core;
 import java.time.Instant;
 import java.util.Optional;
 
-import org.gbif.pipelines.core.Interpretation;
+import org.gbif.pipelines.core.interpreters.Interpretation;
 import org.gbif.pipelines.core.interpreters.core.TemporalInterpreter;
 import org.gbif.pipelines.io.avro.ExtendedRecord;
 import org.gbif.pipelines.io.avro.TemporalRecord;

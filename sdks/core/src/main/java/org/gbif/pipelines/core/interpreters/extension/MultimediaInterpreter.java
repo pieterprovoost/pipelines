@@ -15,15 +15,15 @@ import org.gbif.common.parsers.UrlParser;
 import org.gbif.common.parsers.core.ParseResult;
 import org.gbif.dwc.terms.DcTerm;
 import org.gbif.dwc.terms.DwcTerm;
-import org.gbif.pipelines.core.ExtensionInterpretation;
-import org.gbif.pipelines.core.ExtensionInterpretation.Result;
-import org.gbif.pipelines.core.ExtensionInterpretation.TargetHandler;
+import org.gbif.pipelines.core.interpreters.ExtensionInterpretation;
+import org.gbif.pipelines.core.interpreters.ExtensionInterpretation.Result;
+import org.gbif.pipelines.core.interpreters.ExtensionInterpretation.TargetHandler;
 import org.gbif.pipelines.io.avro.ExtendedRecord;
 import org.gbif.pipelines.io.avro.MediaType;
 import org.gbif.pipelines.io.avro.Multimedia;
 import org.gbif.pipelines.io.avro.MultimediaRecord;
-import org.gbif.pipelines.parsers.parsers.temporal.ParsedTemporal;
-import org.gbif.pipelines.parsers.parsers.temporal.TemporalParser;
+import org.gbif.pipelines.core.parsers.temporal.ParsedTemporal;
+import org.gbif.pipelines.core.parsers.temporal.TemporalParser;
 
 import com.google.common.base.Strings;
 import lombok.AccessLevel;
@@ -31,7 +31,7 @@ import lombok.NoArgsConstructor;
 
 import static org.gbif.api.vocabulary.OccurrenceIssue.MULTIMEDIA_DATE_INVALID;
 import static org.gbif.api.vocabulary.OccurrenceIssue.MULTIMEDIA_URI_INVALID;
-import static org.gbif.pipelines.parsers.utils.ModelUtils.extractOptValue;
+import static org.gbif.pipelines.core.utils.ModelUtils.extractOptValue;
 
 /**
  * Interpreter for the multimedia extension, Interprets form {@link ExtendedRecord} to {@link MultimediaRecord}.

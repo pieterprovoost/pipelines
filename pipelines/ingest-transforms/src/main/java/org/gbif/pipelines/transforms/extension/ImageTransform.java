@@ -4,7 +4,7 @@ import java.time.Instant;
 import java.util.Optional;
 
 import org.gbif.api.vocabulary.Extension;
-import org.gbif.pipelines.core.Interpretation;
+import org.gbif.pipelines.core.interpreters.Interpretation;
 import org.gbif.pipelines.core.interpreters.extension.ImageInterpreter;
 import org.gbif.pipelines.io.avro.ExtendedRecord;
 import org.gbif.pipelines.io.avro.ImageRecord;

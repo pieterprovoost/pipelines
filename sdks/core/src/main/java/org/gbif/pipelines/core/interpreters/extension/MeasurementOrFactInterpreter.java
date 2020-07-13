@@ -11,23 +11,23 @@ import java.util.stream.Collectors;
 
 import org.gbif.api.vocabulary.Extension;
 import org.gbif.dwc.terms.DwcTerm;
-import org.gbif.pipelines.core.ExtensionInterpretation;
-import org.gbif.pipelines.core.ExtensionInterpretation.Result;
-import org.gbif.pipelines.core.ExtensionInterpretation.TargetHandler;
+import org.gbif.pipelines.core.interpreters.ExtensionInterpretation;
+import org.gbif.pipelines.core.interpreters.ExtensionInterpretation.Result;
+import org.gbif.pipelines.core.interpreters.ExtensionInterpretation.TargetHandler;
 import org.gbif.pipelines.io.avro.DeterminedDate;
 import org.gbif.pipelines.io.avro.ExtendedRecord;
 import org.gbif.pipelines.io.avro.MeasurementOrFact;
 import org.gbif.pipelines.io.avro.MeasurementOrFactRecord;
-import org.gbif.pipelines.parsers.parsers.SimpleTypeParser;
-import org.gbif.pipelines.parsers.parsers.temporal.ParsedTemporal;
-import org.gbif.pipelines.parsers.parsers.temporal.ParsedTemporalIssue;
-import org.gbif.pipelines.parsers.parsers.temporal.TemporalParser;
+import org.gbif.pipelines.core.parsers.SimpleTypeParser;
+import org.gbif.pipelines.core.parsers.temporal.ParsedTemporal;
+import org.gbif.pipelines.core.parsers.temporal.ParsedTemporalIssue;
+import org.gbif.pipelines.core.parsers.temporal.TemporalParser;
 
 import lombok.AccessLevel;
 import lombok.NoArgsConstructor;
 
-import static org.gbif.pipelines.parsers.parsers.temporal.ParsedTemporalIssue.DATE_INVALID;
-import static org.gbif.pipelines.parsers.parsers.temporal.ParsedTemporalIssue.DATE_UNLIKELY;
+import static org.gbif.pipelines.core.parsers.temporal.ParsedTemporalIssue.DATE_INVALID;
+import static org.gbif.pipelines.core.parsers.temporal.ParsedTemporalIssue.DATE_UNLIKELY;
 
 /**
  * Interpreter for the MeasurementsOrFacts extension, Interprets form {@link ExtendedRecord} to {@link

@@ -2,7 +2,7 @@ package org.gbif.pipelines.transforms.metadata;
 
 import java.util.Optional;
 
-import org.gbif.pipelines.core.Interpretation;
+import org.gbif.pipelines.core.interpreters.Interpretation;
 import org.gbif.pipelines.core.interpreters.metadata.TaggedValuesInterpreter;
 import org.gbif.pipelines.io.avro.ExtendedRecord;
 import org.gbif.pipelines.io.avro.MetadataRecord;
