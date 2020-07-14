@@ -12,7 +12,7 @@
   <artifactId>keygen</artifactId>
   <packaging>jar</packaging>
 
-  <name>Pipelines :: Sdks :: Keygen</name>
+  <name>Pipelines :: GBIF :: Keygen</name>
   <description>The library to generate GBIF identifier, to support backward compatibility, the codebase (with minimum
     changes) was copied from occurrence/occurrence-persistence project
   </description>
