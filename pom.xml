@@ -397,7 +397,7 @@
       </dependency>
       <dependency>
         <groupId>org.gbif.pipelines</groupId>
-        <artifactId>common</artifactId>
+        <artifactId>variables</artifactId>
         <version>${project.version}</version>
       </dependency>
       <dependency>

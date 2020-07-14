@@ -20,9 +20,9 @@
   <modules>
     <module>beam-common</module>
     <module>beam-transforms</module>
-    <module>common</module>
     <module>core</module>
     <module>models</module>
+    <module>variables</module>
   </modules>
 
 </project>

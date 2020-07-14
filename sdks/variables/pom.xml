@@ -9,7 +9,7 @@
     <relativePath>../pom.xml</relativePath>
   </parent>
 
-  <artifactId>common</artifactId>
+  <artifactId>variables</artifactId>
   <packaging>jar</packaging>
 
   <name>Pipelines :: Sdks :: Common</name>
